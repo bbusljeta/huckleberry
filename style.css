@@ -31,7 +31,7 @@ body {
 
 .card {
   font-weight: 500;
-  padding: 24px;
+  padding: 8px 24px 24px 24px;
   font-size: 20px;
   background-color: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
@@ -49,6 +49,7 @@ body {
   padding: 16px 32px 15px 32px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-top: 0px;
 }
 
 .bg-content {
