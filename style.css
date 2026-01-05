@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,152 @@ body {
 }
 
 /* Add styles here! */
+
+.bg-primary {
+  background-color: hsl(160deg, 100%, 30%);
+}
+.text-primary {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.bg-secondary-light {
+  background-color: hsl(45deg, 100%, 50%);
+}
+
+.text-secondary-light {
+  color: hsl(45deg, 100%, 50%);
+}
+
+.bg-secondary-dark {
+  background-color: hsl(45deg, 100%, 40%);
+}
+
+.text-secondary-dark {
+  color: hsl(45deg, 100%, 40%);
+}
+
+.bg-black {
+  background-color: hsl(0deg, 0%, 0%);
+}
+
+.text-black {
+  color: hsl(0deg, 0%, 0%);
+}
+
+.bg-very-dark {
+  background-color: hsl(0deg, 0%, 10%);
+}
+.text-very-dark {
+  color: hsl(0deg, 0%, 10%);
+}
+
+.bg-dark {
+  background-color: hsl(0deg, 0%, 30%);
+}
+.text-dark {
+  color: hsl(0deg, 0%, 30%);
+}
+
+.bg-medium {
+  background-color: hsl(0deg, 0%, 40%);
+}
+.text-medium {
+  color: hsl(0deg, 0%, 40%);
+}
+
+.bg-light {
+  background-color: hsl(0deg, 0%, 60%);
+}
+.text-light {
+  color: hsl(0deg, 0%, 60%);
+}
+
+.bg-white {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.text-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.m-8px {
+  margin: 8px;
+}
+.m-16px {
+  margin: 16px;
+}
+.m-24px {
+  margin: 24px;
+}
+.m-32px {
+  margin: 32px;
+}
+.m-48px {
+  margin: 48px;
+}
+.m-64px {
+  margin: 64px;
+}
+.m-96px {
+  margin: 96px;
+}
+.m-128px {
+  margin: 128px;
+}
+
+.p-8px {
+  padding: 8px;
+}
+.p-16px {
+  padding: 16px;
+}
+.p-24px {
+  padding: 24px;
+}
+.p-32px {
+  padding: 32px;
+}
+.p-48px {
+  padding: 48px;
+}
+.p-64px {
+  padding: 64px;
+}
+.p-96px {
+  padding: 96px;
+}
+.p-128px {
+  padding: 128px;
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 752px;
+}
+
+.intro-chunk {
+  padding: 64px 24px;
+  max-width: 415px;
+  font-size: 20px;
+}
+
+.card {
+  padding: 64px 24px;
+  font-weight: 500;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.title {
+  font-size: 32px;
+}
+
+.indented-heading {
+  font-size: 24px;
+  font-weight: 800;
+}
